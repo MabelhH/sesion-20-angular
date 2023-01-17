@@ -1,0 +1,32 @@
+<p class="text-primary text-center fs-1">lista de datos</p>
+<ul>
+    <li *ngFor="let user of users">
+      <pre>
+       {{ user |json}}
+      </pre>
+    </li> 
+</ul>  
+<div class="tabla1">
+    <h1 class="text-center"><strong>Bienvenido a la aplicacion de Interceptores-Certus!</strong></h1>
+    <img src="https://icones.pro/wp-content/uploads/2022/07/icone-angulaire-rouge.png" alt=""><br>
+    <br>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Title</th>
+            <th scope="col">Body</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of users" >
+            <td>{{user.id}}</td>
+            <td>{{user.title}}</td>
+            <td>{{user.body}}</td>
+          </tr>
+          
+        </tbody>
+      </table>
+
+</div>

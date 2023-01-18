@@ -18,7 +18,7 @@ export class UsersService  implements OnInit{
   }
   
   getlista(index: string){
-    return this.https.get<any>(`${this.urlbase}/lista/${index}`);
+    return this.https.get<any>(`${this.urlbase}/${index}`);
   }
 
 

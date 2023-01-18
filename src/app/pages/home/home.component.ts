@@ -31,7 +31,7 @@ ngOnInit(): void {
 
     let listaData;
     
-    for(let i = 61 ; i < 100; i++){
+    for(let i = 61 ; i < 101; i++){
      
       this.traerdatos.getlista(String(i)).subscribe(
         res => {

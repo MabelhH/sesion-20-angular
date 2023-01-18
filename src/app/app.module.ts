@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PagesModule } from './pages/pages.module';
 import { InterceptorService } from './serves/interceptor.service';
-import{BrowserAnimationsModule} from '@angular/platform-browser/animations'
+import{BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
